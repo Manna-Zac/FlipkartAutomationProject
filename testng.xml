@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="item_name_a" value="iPhone 12 Pro Max"></parameter>
+    <parameter name="item_name_b" value="1457543465643"></parameter>
+    <parameter name="item_name" value="iphone"></parameter>
+    <parameter name="product_name" value="T-shirts"></parameter>
+    <parameter name="url" value="https://www.flipkart.com/"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/Flipkart">
+
+        <classes>
+            <class name="FlipkartExecution">
+
+            </class>
+            <class name="Reports"></class>
+        </classes>
+    </test>
+</suite>
